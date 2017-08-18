@@ -12,7 +12,7 @@ os.environ['STANFORD_MODELS'] = '/Users/songchangheon/stanford_NLP/stanford-pars
 parser = stanford.StanfordParser(model_path="/Users/songchangheon/stanford_NLP/stanford-parser-full-2017-06-09/stanford-parser-3.8.0-models/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
 dependency_parser = stanford.StanfordDependencyParser(os.environ['STANFORD_PARSER'],os.environ['STANFORD_MODELS'],)
 
-select_list = ['nsubj','dep','advmod','amod','npadvmod','nsubjpass','num','vmod','compound','nmod:for','nmod:poss','nmod:of','nmod:in','nmod:to','nmod:on','nmod:from','nmod:with','nmod:at','nmod:next','nmod:under']
+select_list = ['nsubj','nsubjpass','dep','advmod','amod','npadvmod','num','vmod','compound','nmod:for','nmod:poss','nmod:of','nmod:in','nmod:to','nmod:on','nmod:from','nmod:with','nmod:at','nmod:next','nmod:under']
 
 file_name = open("/Users/songchangheon/PARALEX/web_crawl/question.txt")
 
@@ -33,7 +33,7 @@ for line in sentences:
     for element in list(line.next().triples()):
         if element[1] in select_list:
             print element[1],element[0],element[2]
-            if element[1] == 'nsubj':
+            if element[1] == 'nsubj' or element[1] == 'nsubjpass':
                 Focus = element[0][0] if element[0][1] != u'WP' else element[2][0]
 
 
