@@ -30,14 +30,77 @@ for line in sentences:
 
     Focus = ""
     Modifier = []
+    flag = False
+
     for element in list(line.next().triples()):
         if element[1] in select_list:
             print element[1],element[0],element[2]
-            if element[1] == 'nsubj' or element[1] == 'nsubjpass':
-                Focus = element[0][0] if element[0][1] != u'WP' else element[2][0]
+            if flag == False and (element[1] == 'nsubj' or element[1] == 'nsubjpass'):
+                if (element[0][1] != u'WP' and element[0][1] != u'VBN'):
+                    Focus = element[0][0]
+                elif (element[2][1] != u'WP' and element[2][1] != u'VBN'):
+                    Focus = element[2][0]
+                else:
+                    Focus = element[0][0] if element[0][1] ==  u'VBN' else element[2][0]
+                flag = True
+            elif element[1] == 'compound' and (element[0][0] in Focus or element[2][0] in Focus):
+                Focus = Focus + " " +element[0][0] if element[0][0] not in Focus else Focus + " " + element[2][0]
+            else:           ## need to get modifier method
+                if element[0][0] == Focus:
+                    mod = element[2][0]
+                elif element[2][0] == Focus:
+                    mod = element[0][0]
+                else:
+                    mod = ""
+                if mod is not "":
+                    Modifier.append(mod)
 
 
     print "Focus : ",Focus
     print "Modifier :", Modifier
     print ""
     i += 1
+
+
+'''
+What is required to open an account with Chevy Chase Bank Online?
+
+
+nsubjpass (u'required', u'VBN') (u'What', u'WP')
+compound (u'Online', u'NNP') (u'Chevy', u'NNP')
+compound (u'Online', u'NNP') (u'Chase', u'NNP')
+compound (u'Online', u'NNP') (u'Bank', u'NNP')
+Focus :  required
+Modifier : []
+
+
+
+What are some banking tools that give a person access to their accounts?
+
+
+nsubj (u'What', u'WP') (u'tools', u'NNS')
+compound (u'tools', u'NNS') (u'banking', u'NN')
+nsubj (u'give', u'VBP') (u'that', u'WDT')
+compound (u'access', u'NN') (u'person', u'NN')
+nmod:poss (u'accounts', u'NNS') (u'their', u'PRP$')
+Focus :  give
+Modifier : []
+
+giving a flag to get first nsubj to get focus.
+
+What is the minimum amount needed to open a checking account with Compass Bank Online?
+
+
+dep (u'needed', u'VBN') (u'What', u'WP')
+nsubjpass (u'needed', u'VBN') (u'amount', u'NN')
+amod (u'amount', u'NN') (u'minimum', u'JJ')
+amod (u'account', u'NN') (u'checking', u'VBG')
+compound (u'Online', u'NNP') (u'Compass', u'NNP')
+compound (u'Online', u'NNP') (u'Bank', u'NNP')
+Focus :  needed
+Modifier : []
+
+How can I handle this problem.
+Which one is a real focus in this sentence, if 'minimum amount', I have to change upper algorithm.
+However 'needed' is focus, it will be okay to stay like this.
+'''
