@@ -1,0 +1,1747 @@
+file read is done.
+What is the plural bacterium?
+
+
+nsubj (u'What', u'WP') (u'bacterium', u'NN')
+compound (u'bacterium', u'NN') (u'plural', u'NN')
+Focus :  bacterium plural
+Modifier : []
+
+What is vancouver population in 2010?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+compound (u'population', u'NN') (u'vancouver', u'NN')
+Focus :  population vancouver
+Modifier : []
+
+What is location of centrioles?
+
+
+nsubj (u'What', u'WP') (u'location', u'NN')
+Focus :  location
+Modifier : []
+
+What is the title for french national anthem?
+
+
+nsubj (u'What', u'WP') (u'title', u'NN')
+amod (u'anthem', u'NN') (u'french', u'JJ')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  title
+Modifier : []
+
+What is the country's national anthem in France?
+
+
+nsubj (u'What', u'WP') (u'anthem', u'NN')
+nmod:poss (u'anthem', u'NN') (u'country', u'NN')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  anthem
+Modifier : [u'country', u'national']
+
+What is the title of france national anthem?
+
+
+nsubj (u'What', u'WP') (u'title', u'NN')
+amod (u'anthem', u'NN') (u'france', u'JJ')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  title
+Modifier : []
+
+What is 4 ways ruthenium is used?
+
+
+nsubj (u'What', u'WP') (u'ways', u'NNS')
+nsubjpass (u'used', u'VBN') (u'ruthenium', u'NN')
+Focus :  ways
+Modifier : []
+
+What is the population in Vancouver 2009?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+Focus :  population
+Modifier : []
+
+What is the population vancouver in 2006?
+
+
+nsubj (u'What', u'WP') (u'vancouver', u'NN')
+compound (u'vancouver', u'NN') (u'population', u'NN')
+Focus :  vancouver population
+Modifier : []
+
+What is are symbols for wisdom?
+
+
+nsubj (u'are', u'VBP') (u'symbols', u'NNS')
+Focus :  are
+Modifier : []
+
+What is the language most often spoken in British hong Kong?
+
+
+nsubjpass (u'spoken', u'VBN') (u'language', u'NN')
+advmod (u'spoken', u'VBN') (u'often', u'RB')
+advmod (u'often', u'RB') (u'most', u'RBS')
+Focus :  language
+Modifier : []
+
+What is the is name of the national anthem of France?
+
+
+nsubj (u'What', u'WP') (u'the', u'DT')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  the
+Modifier : []
+
+What is a female octopus?
+
+
+nsubj (u'What', u'WP') (u'octopus', u'NNS')
+amod (u'octopus', u'NNS') (u'female', u'JJ')
+Focus :  octopus
+Modifier : [u'female']
+
+What is the population of the city of vancouver?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+Focus :  population
+Modifier : []
+
+What is flouride toothpaste made of?
+
+
+nsubjpass (u'made', u'VBN') (u'toothpaste', u'NN')
+amod (u'toothpaste', u'NN') (u'flouride', u'JJ')
+Focus :  toothpaste
+Modifier : [u'flouride']
+
+What is the symbolism of a moose?
+
+
+nsubj (u'What', u'WP') (u'symbolism', u'NN')
+Focus :  symbolism
+Modifier : []
+
+What is cat afraid of?
+
+
+nsubj (u'afraid', u'JJ') (u'cat', u'NN')
+Focus :  afraid
+Modifier : []
+
+What is Hong Kong's lanugages?
+
+
+nsubj (u'What', u'WP') (u'lanugages', u'NNS')
+nmod:poss (u'lanugages', u'NNS') (u'Kong', u'NNP')
+compound (u'Kong', u'NNP') (u'Hong', u'NNP')
+Focus :  lanugages
+Modifier : [u'Kong']
+
+What is the national anthem of France?
+
+
+nsubj (u'What', u'WP') (u'anthem', u'NN')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  anthem
+Modifier : [u'national']
+
+What is the city in peru that has the largest population?
+
+
+nsubj (u'What', u'WP') (u'city', u'NN')
+nsubj (u'has', u'VBZ') (u'that', u'WDT')
+amod (u'population', u'NN') (u'largest', u'JJS')
+Focus :  city
+Modifier : []
+
+What is the plural form for bacterium?
+
+
+nsubj (u'What', u'WP') (u'form', u'NN')
+compound (u'form', u'NN') (u'plural', u'NN')
+Focus :  form plural
+Modifier : []
+
+What is vancouver's population 2010?
+
+
+nsubj (u'What', u'WP') (u'2010', u'NN')
+nmod:poss (u'2010', u'NN') (u'vancouver', u'NN')
+compound (u'2010', u'NN') (u'population', u'NN')
+Focus :  2010 population
+Modifier : [u'vancouver']
+
+What is Kansas's nickname?
+
+
+nsubj (u'What', u'WP') (u'nickname', u'NN')
+nmod:poss (u'nickname', u'NN') (u'Kansas', u'NNP')
+Focus :  nickname
+Modifier : [u'Kansas']
+
+What is the french nationol anthem called?
+
+
+nsubjpass (u'called', u'VBN') (u'anthem', u'NN')
+amod (u'anthem', u'NN') (u'french', u'JJ')
+amod (u'anthem', u'NN') (u'nationol', u'JJ')
+Focus :  anthem
+Modifier : [u'french', u'nationol']
+
+What is the main laguage spoken in Hong kong?
+
+
+nsubjpass (u'spoken', u'VBN') (u'laguage', u'NN')
+amod (u'laguage', u'NN') (u'main', u'JJ')
+compound (u'kong', u'NN') (u'Hong', u'NNP')
+Focus :  laguage
+Modifier : [u'main']
+
+What is the name of France national athem?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+compound (u'athem', u'NN') (u'France', u'NNP')
+amod (u'athem', u'NN') (u'national', u'JJ')
+Focus :  name
+Modifier : []
+
+What is female octopus called?
+
+
+nsubjpass (u'called', u'VBN') (u'octopus', u'NNS')
+amod (u'octopus', u'NNS') (u'female', u'JJ')
+Focus :  octopus
+Modifier : [u'female']
+
+What is the symbol for hanukah?
+
+
+nsubj (u'What', u'WP') (u'symbol', u'NN')
+Focus :  symbol
+Modifier : []
+
+What is represent the symbol for wisdom?
+
+
+nsubj (u'represent', u'VB') (u'What', u'WP')
+Focus :  represent
+Modifier : []
+
+What is one way that a laser is used?
+
+
+nsubj (u'What', u'WP') (u'way', u'NN')
+dep (u'way', u'NN') (u'used', u'VBN')
+nsubjpass (u'used', u'VBN') (u'laser', u'NN')
+Focus :  way
+Modifier : [u'used']
+
+What is the affect of gun control?
+
+
+nsubj (u'What', u'WP') (u'affect', u'NN')
+compound (u'control', u'NN') (u'gun', u'NN')
+Focus :  affect
+Modifier : []
+
+What is the symbols for hanukah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What is the largest city in Peru?
+
+
+nsubj (u'What', u'WP') (u'city', u'NN')
+amod (u'city', u'NN') (u'largest', u'JJS')
+Focus :  city
+Modifier : [u'largest']
+
+What is the plural of bacterium?
+
+
+nsubj (u'What', u'WP') (u'plural', u'NN')
+Focus :  plural
+Modifier : []
+
+What is the name of the Hanukkah symbol?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+compound (u'symbol', u'NN') (u'Hanukkah', u'NNP')
+Focus :  name
+Modifier : []
+
+What is the most common language in Hong Kong?
+
+
+nsubj (u'What', u'WP') (u'language', u'NN')
+advmod (u'language', u'NN') (u'most', u'RBS')
+amod (u'language', u'NN') (u'common', u'JJ')
+compound (u'Kong', u'NNP') (u'Hong', u'NNP')
+Focus :  language
+Modifier : [u'most', u'common']
+
+What is plural for bacterium?
+
+
+nsubj (u'What', u'WP') (u'plural', u'NN')
+Focus :  plural
+Modifier : []
+
+What is use of polyurethane?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+Focus :  use
+Modifier : []
+
+What is the population of Vancouver Cananda?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+compound (u'Cananda', u'NNP') (u'Vancouver', u'NNP')
+Focus :  population
+Modifier : []
+
+What is the most used language in hong kong?
+
+
+nsubj (u'What', u'WP') (u'language', u'NN')
+amod (u'language', u'NN') (u'used', u'JJ')
+advmod (u'used', u'JJ') (u'most', u'RBS')
+amod (u'kong', u'NN') (u'hong', u'JJ')
+Focus :  language
+Modifier : [u'used']
+
+What is perus largest city?
+
+
+nsubj (u'city', u'NN') (u'What', u'WP')
+amod (u'city', u'NN') (u'perus', u'JJ')
+dep (u'perus', u'JJ') (u'largest', u'JJS')
+Focus :  city
+Modifier : [u'perus']
+
+What is the title of the French national anthem?
+
+
+nsubj (u'What', u'WP') (u'title', u'NN')
+amod (u'anthem', u'NN') (u'French', u'JJ')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  title
+Modifier : []
+
+What is polyurethane used for?
+
+
+nsubjpass (u'used', u'VBN') (u'polyurethane', u'NN')
+Focus :  polyurethane
+Modifier : []
+
+What is a females octopus called?
+
+
+nsubjpass (u'called', u'VBN') (u'octopus', u'NN')
+compound (u'octopus', u'NN') (u'females', u'NNS')
+Focus :  octopus females
+Modifier : []
+
+What is kansas 3 nicknames?
+
+
+nsubj (u'What', u'WP') (u'kansas', u'NNS')
+dep (u'kansas', u'NNS') (u'nicknames', u'NNS')
+Focus :  kansas
+Modifier : [u'nicknames']
+
+What is the name of the natinal anthem of france?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+amod (u'anthem', u'NN') (u'natinal', u'JJ')
+Focus :  name
+Modifier : []
+
+What is frances' national anthem?
+
+
+nsubj (u'What', u'WP') (u'anthem', u'NN')
+nmod:poss (u'anthem', u'NN') (u'frances', u'NNS')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  anthem
+Modifier : [u'frances', u'national']
+
+What is the language in hong-kong?
+
+
+nsubj (u'What', u'WP') (u'language', u'NN')
+Focus :  language
+Modifier : []
+
+What is the language use in hong kong?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+compound (u'use', u'NN') (u'language', u'NN')
+amod (u'kong', u'NN') (u'hong', u'JJ')
+Focus :  use language
+Modifier : []
+
+What is an anti-cavity toothpaste made from?
+
+
+nsubjpass (u'made', u'VBN') (u'toothpaste', u'NN')
+amod (u'toothpaste', u'NN') (u'anti-cavity', u'JJ')
+Focus :  toothpaste
+Modifier : [u'anti-cavity']
+
+What is the female octopus called?
+
+
+nsubjpass (u'called', u'VBN') (u'octopus', u'NNS')
+amod (u'octopus', u'NNS') (u'female', u'JJ')
+Focus :  octopus
+Modifier : [u'female']
+
+What is the main symbol of the hanukkah celebration?
+
+
+nsubj (u'What', u'WP') (u'symbol', u'NN')
+amod (u'symbol', u'NN') (u'main', u'JJ')
+amod (u'celebration', u'NN') (u'hanukkah', u'JJ')
+Focus :  symbol
+Modifier : [u'main']
+
+What is the name for france's national anthem?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+nmod:poss (u'anthem', u'NN') (u'france', u'NN')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  name
+Modifier : []
+
+What is polyurethane used in?
+
+
+nsubjpass (u'used', u'VBN') (u'polyurethane', u'NN')
+Focus :  polyurethane
+Modifier : []
+
+What is tuberculosis cause by?
+
+
+nsubj (u'What', u'WP') (u'cause', u'NN')
+compound (u'cause', u'NN') (u'tuberculosis', u'NNP')
+dep (u'What', u'WP') (u'by', u'IN')
+Focus :  cause tuberculosis
+Modifier : []
+
+What is a parrotfish's habitat?
+
+
+nsubj (u'What', u'WP') (u'habitat', u'NN')
+nmod:poss (u'habitat', u'NN') (u'parrotfish', u'NN')
+Focus :  habitat
+Modifier : [u'parrotfish']
+
+What is name of the french national anthem?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+amod (u'anthem', u'NN') (u'french', u'JJ')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  name
+Modifier : []
+
+What is peru's largest city?
+
+
+nsubj (u'What', u'WP') (u'city', u'NN')
+nmod:poss (u'city', u'NN') (u'peru', u'NNP')
+amod (u'city', u'NN') (u'largest', u'JJS')
+Focus :  city
+Modifier : [u'peru', u'largest']
+
+What is ruthenium used for today?
+
+
+nsubjpass (u'used', u'VBN') (u'ruthenium', u'NN')
+Focus :  ruthenium
+Modifier : []
+
+What is language spoken in hong kong?
+
+
+nsubjpass (u'spoken', u'VBN') (u'language', u'NN')
+Focus :  language
+Modifier : []
+
+What is the term for female octopus?
+
+
+nsubj (u'What', u'WP') (u'term', u'NN')
+amod (u'octopus', u'NNS') (u'female', u'JJ')
+Focus :  term
+Modifier : []
+
+What is the symbol of hanukah?
+
+
+nsubj (u'What', u'WP') (u'symbol', u'NN')
+Focus :  symbol
+Modifier : []
+
+What is the national anthem of france?
+
+
+nsubj (u'What', u'WP') (u'anthem', u'NN')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  anthem
+Modifier : [u'national']
+
+What is vancouvers total population?
+
+
+nsubj (u'What', u'WP') (u'vancouvers', u'NNS')
+dep (u'vancouvers', u'NNS') (u'population', u'NN')
+amod (u'population', u'NN') (u'total', u'JJ')
+Focus :  vancouvers
+Modifier : [u'population']
+
+What is the use of lasers?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+Focus :  use
+Modifier : []
+
+What is kanas's state nickname?
+
+
+nsubj (u'What', u'WP') (u'nickname', u'NN')
+nmod:poss (u'nickname', u'NN') (u'kanas', u'NNS')
+compound (u'nickname', u'NN') (u'state', u'NN')
+Focus :  nickname state
+Modifier : [u'kanas']
+
+What is toothpaste made out off?
+
+
+nsubjpass (u'made', u'VBN') (u'toothpaste', u'NN')
+advmod (u'made', u'VBN') (u'off', u'RB')
+Focus :  toothpaste
+Modifier : []
+
+What is ruthenium used in?
+
+
+nsubjpass (u'used', u'VBN') (u'ruthenium', u'NN')
+Focus :  ruthenium
+Modifier : []
+
+What is the national anthem in the France?
+
+
+nsubj (u'What', u'WP') (u'anthem', u'NN')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  anthem
+Modifier : [u'national']
+
+What is the name for a female octopus?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+amod (u'octopus', u'NNS') (u'female', u'JJ')
+Focus :  name
+Modifier : []
+
+What is the largest city of peru?
+
+
+nsubj (u'What', u'WP') (u'city', u'NN')
+amod (u'city', u'NN') (u'largest', u'JJS')
+Focus :  city
+Modifier : [u'largest']
+
+What is th population of vancouver?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+compound (u'population', u'NN') (u'th', u'NN')
+Focus :  population th
+Modifier : []
+
+What is the population of Vancouver?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+Focus :  population
+Modifier : []
+
+What is the toothpaste made of?
+
+
+nsubjpass (u'made', u'VBN') (u'toothpaste', u'NN')
+Focus :  toothpaste
+Modifier : []
+
+What is ruthenium used for?
+
+
+nsubjpass (u'used', u'VBN') (u'ruthenium', u'NN')
+Focus :  ruthenium
+Modifier : []
+
+What is the use of laser system?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+compound (u'system', u'NN') (u'laser', u'NN')
+Focus :  use
+Modifier : []
+
+What is the the largest city in Peru?
+
+
+nsubj (u'What', u'WP') (u'city', u'NN')
+amod (u'city', u'NN') (u'largest', u'JJS')
+Focus :  city
+Modifier : [u'largest']
+
+What is the use of Thermoplastic Polyurethane?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+amod (u'Polyurethane', u'NN') (u'Thermoplastic', u'JJ')
+Focus :  use
+Modifier : []
+
+What is nickname of kansas city?
+
+
+nsubj (u'What', u'WP') (u'nickname', u'NN')
+amod (u'city', u'NN') (u'kansas', u'JJ')
+Focus :  nickname
+Modifier : []
+
+What is the plural term for bacterium?
+
+
+nsubj (u'What', u'WP') (u'term', u'NN')
+compound (u'term', u'NN') (u'plural', u'NN')
+Focus :  term plural
+Modifier : []
+
+What is the total population of vancouver?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+amod (u'population', u'NN') (u'total', u'JJ')
+Focus :  population
+Modifier : [u'total']
+
+What is polyurethane adhesive used for?
+
+
+nsubjpass (u'used', u'VBN') (u'adhesive', u'NN')
+compound (u'adhesive', u'NN') (u'polyurethane', u'NN')
+Focus :  adhesive polyurethane
+Modifier : []
+
+What is france national anthem called?
+
+
+nsubjpass (u'called', u'VBN') (u'anthem', u'NN')
+amod (u'anthem', u'NN') (u'france', u'JJ')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  anthem
+Modifier : [u'france', u'national']
+
+What is the name of a female octopus?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+amod (u'octopus', u'NNS') (u'female', u'JJ')
+Focus :  name
+Modifier : []
+
+What is vancouver canada's population?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+nmod:poss (u'population', u'NN') (u'canada', u'NN')
+amod (u'canada', u'NN') (u'vancouver', u'JJ')
+Focus :  population
+Modifier : [u'canada']
+
+What is the plural noun of bacterium?
+
+
+nsubj (u'What', u'WP') (u'noun', u'NN')
+compound (u'noun', u'NN') (u'plural', u'NN')
+Focus :  noun plural
+Modifier : []
+
+What is the causes tuberculosis?
+
+
+nsubj (u'What', u'WP') (u'tuberculosis', u'NNP')
+compound (u'tuberculosis', u'NNP') (u'causes', u'NNS')
+Focus :  tuberculosis causes
+Modifier : []
+
+What is uses of laser in community?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What is the primary language spoken in hong kong?
+
+
+nsubjpass (u'spoken', u'VBN') (u'language', u'NN')
+amod (u'language', u'NN') (u'primary', u'JJ')
+Focus :  language
+Modifier : [u'primary']
+
+What is the use of polyurethane?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+Focus :  use
+Modifier : []
+
+What is ruthenium use for?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+compound (u'use', u'NN') (u'ruthenium', u'NN')
+dep (u'What', u'WP') (u'for', u'IN')
+Focus :  use ruthenium
+Modifier : []
+
+What is the population of Vancouver 2010?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+Focus :  population
+Modifier : []
+
+What is bacterium in plural?
+
+
+nsubj (u'What', u'WP') (u'bacterium', u'NN')
+Focus :  bacterium
+Modifier : []
+
+What is Vancouver's current population?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+nmod:poss (u'population', u'NN') (u'Vancouver', u'NNP')
+amod (u'population', u'NN') (u'current', u'JJ')
+Focus :  population
+Modifier : [u'Vancouver', u'current']
+
+What is the population of the city vancouver?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+compound (u'vancouver', u'NN') (u'city', u'NN')
+Focus :  population
+Modifier : []
+
+What is the national anthem called of france?
+
+
+nsubjpass (u'called', u'VBN') (u'anthem', u'NN')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  anthem
+Modifier : [u'national']
+
+What is the buddhist symbol for wisdom?
+
+
+nsubj (u'What', u'WP') (u'symbol', u'NN')
+amod (u'symbol', u'NN') (u'buddhist', u'JJ')
+Focus :  symbol
+Modifier : [u'buddhist']
+
+What is population for vancouver?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+Focus :  population
+Modifier : []
+
+What is a symbol of hanukkah?
+
+
+nsubj (u'What', u'WP') (u'symbol', u'NN')
+Focus :  symbol
+Modifier : []
+
+What is the use of the laser?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+Focus :  use
+Modifier : []
+
+What is the population of Vancouver right now?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+advmod (u'Vancouver', u'NNP') (u'now', u'RB')
+advmod (u'now', u'RB') (u'right', u'RB')
+Focus :  population
+Modifier : []
+
+What is the language mostly spoken in Hong Kong?
+
+
+nsubjpass (u'spoken', u'VBN') (u'language', u'NN')
+advmod (u'spoken', u'VBN') (u'mostly', u'RB')
+compound (u'Kong', u'NNP') (u'Hong', u'NNP')
+Focus :  language
+Modifier : []
+
+What is the name of the french nation anthem?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+amod (u'anthem', u'NN') (u'french', u'JJ')
+compound (u'anthem', u'NN') (u'nation', u'NN')
+Focus :  name
+Modifier : []
+
+What is the most language spoken in hong kong?
+
+
+nsubjpass (u'spoken', u'VBN') (u'language', u'NN')
+amod (u'language', u'NN') (u'most', u'JJS')
+Focus :  language
+Modifier : [u'most']
+
+What is the plural forms of bacterium?
+
+
+nsubj (u'What', u'WP') (u'forms', u'NNS')
+compound (u'forms', u'NNS') (u'plural', u'NN')
+Focus :  forms plural
+Modifier : []
+
+What is the continent of mt ararat?
+
+
+nsubj (u'What', u'WP') (u'continent', u'NN')
+compound (u'ararat', u'NN') (u'mt', u'NN')
+Focus :  continent
+Modifier : []
+
+What is the official theme song of France?
+
+
+nsubj (u'What', u'WP') (u'song', u'NN')
+amod (u'song', u'NN') (u'official', u'JJ')
+compound (u'song', u'NN') (u'theme', u'NN')
+Focus :  song theme
+Modifier : [u'official']
+
+What is bacterium plural?
+
+
+nsubj (u'What', u'WP') (u'plural', u'NN')
+compound (u'plural', u'NN') (u'bacterium', u'NN')
+Focus :  plural bacterium
+Modifier : []
+
+What is discover by robert hooke?
+
+
+nsubj (u'discover', u'VB') (u'What', u'WP')
+amod (u'hooke', u'NN') (u'robert', u'JJ')
+Focus :  discover
+Modifier : []
+
+What is the plural form of the word bacterium?
+
+
+nsubj (u'What', u'WP') (u'form', u'NN')
+compound (u'form', u'NN') (u'plural', u'NN')
+compound (u'bacterium', u'NN') (u'word', u'NN')
+Focus :  form plural
+Modifier : []
+
+What is the name of frances anthem?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+amod (u'anthem', u'NN') (u'frances', u'JJ')
+Focus :  name
+Modifier : []
+
+What is Arm and Hammer toothpaste made of?
+
+
+nsubj (u'What', u'WP') (u'toothpaste', u'NN')
+compound (u'toothpaste', u'NN') (u'Arm', u'NN')
+Focus :  toothpaste Arm
+Modifier : []
+
+What is some of the symbols for hanukkah?
+
+
+nsubj (u'What', u'WP') (u'some', u'DT')
+Focus :  some
+Modifier : []
+
+What is toothpaste made with?
+
+
+nsubjpass (u'made', u'VBN') (u'toothpaste', u'NN')
+Focus :  toothpaste
+Modifier : []
+
+What is the name of the National Anthem in french?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+compound (u'Anthem', u'NNP') (u'National', u'NNP')
+Focus :  name
+Modifier : []
+
+What is a female octopus is called?
+
+
+nsubj (u'What', u'WP') (u'octopus', u'NNS')
+amod (u'octopus', u'NNS') (u'female', u'JJ')
+Focus :  octopus
+Modifier : [u'female']
+
+What is the argument on the legalization of guns?
+
+
+nsubj (u'What', u'WP') (u'argument', u'NN')
+Focus :  argument
+Modifier : []
+
+What is the real name of a female octopus?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+amod (u'name', u'NN') (u'real', u'JJ')
+amod (u'octopus', u'NNS') (u'female', u'JJ')
+Focus :  name
+Modifier : [u'real']
+
+What is the irregular plural bacterium?
+
+
+nsubj (u'What', u'WP') (u'bacterium', u'NN')
+compound (u'bacterium', u'NN') (u'irregular', u'NN')
+compound (u'bacterium', u'NN') (u'plural', u'NN')
+Focus :  bacterium irregular plural
+Modifier : []
+
+What is the main spoken language in hong kong?
+
+
+nsubj (u'What', u'WP') (u'language', u'NN')
+amod (u'language', u'NN') (u'main', u'JJ')
+amod (u'language', u'NN') (u'spoken', u'JJ')
+amod (u'kong', u'NN') (u'hong', u'JJ')
+Focus :  language
+Modifier : [u'main', u'spoken']
+
+What is an important use Ruthenium?
+
+
+nsubj (u'What', u'WP') (u'Ruthenium', u'NNP')
+amod (u'Ruthenium', u'NNP') (u'important', u'JJ')
+compound (u'Ruthenium', u'NNP') (u'use', u'NN')
+Focus :  Ruthenium use
+Modifier : [u'important']
+
+What is polyurethane plastic used for?
+
+
+nsubjpass (u'used', u'VBN') (u'plastic', u'NN')
+compound (u'plastic', u'NN') (u'polyurethane', u'NN')
+Focus :  plastic polyurethane
+Modifier : []
+
+What is the plural form of bacterium?
+
+
+nsubj (u'What', u'WP') (u'form', u'NN')
+compound (u'form', u'NN') (u'plural', u'NN')
+Focus :  form plural
+Modifier : []
+
+What is laser use?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+compound (u'use', u'NN') (u'laser', u'NN')
+Focus :  use laser
+Modifier : []
+
+What is the main symbol of Hanukkah?
+
+
+nsubj (u'What', u'WP') (u'symbol', u'NN')
+amod (u'symbol', u'NN') (u'main', u'JJ')
+Focus :  symbol
+Modifier : [u'main']
+
+What is a parrotfishs habitat?
+
+
+nsubj (u'What', u'WP') (u'habitat', u'NN')
+amod (u'habitat', u'NN') (u'parrotfishs', u'JJ')
+Focus :  habitat
+Modifier : [u'parrotfishs']
+
+What is toothpaste is made out of?
+
+
+nsubj (u'What', u'WP') (u'toothpaste', u'NN')
+Focus :  toothpaste
+Modifier : []
+
+What is kansas nicknames?
+
+
+nsubj (u'What', u'WP') (u'nicknames', u'NNS')
+amod (u'nicknames', u'NNS') (u'kansas', u'JJ')
+Focus :  nicknames
+Modifier : [u'kansas']
+
+What is the population is vancouver?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+Focus :  population
+Modifier : []
+
+What is the languge in hong kong?
+
+
+nsubj (u'What', u'WP') (u'languge', u'NN')
+amod (u'kong', u'NN') (u'hong', u'JJ')
+Focus :  languge
+Modifier : []
+
+What is a female octopus called?
+
+
+nsubjpass (u'called', u'VBN') (u'octopus', u'NNS')
+amod (u'octopus', u'NNS') (u'female', u'JJ')
+Focus :  octopus
+Modifier : [u'female']
+
+What is the irregular plural for bacterium?
+
+
+nsubj (u'What', u'WP') (u'plural', u'NN')
+compound (u'plural', u'NN') (u'irregular', u'NN')
+Focus :  plural irregular
+Modifier : []
+
+What is toothpaste made from?
+
+
+nsubjpass (u'made', u'VBN') (u'toothpaste', u'NN')
+Focus :  toothpaste
+Modifier : []
+
+What is the name of the national anthem of France?
+
+
+nsubj (u'What', u'WP') (u'name', u'NN')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  name
+Modifier : []
+
+What is the plural spelling for bacterium?
+
+
+nsubj (u'What', u'WP') (u'spelling', u'NN')
+compound (u'spelling', u'NN') (u'plural', u'NN')
+Focus :  spelling plural
+Modifier : []
+
+What is vancouvers population in 2010?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+amod (u'population', u'NN') (u'vancouvers', u'JJ')
+Focus :  population
+Modifier : [u'vancouvers']
+
+What is Nickname for the people of kansas?
+
+
+nsubj (u'What', u'WP') (u'Nickname', u'NNP')
+Focus :  Nickname
+Modifier : []
+
+What is polyurethane?
+
+
+nsubj (u'What', u'WP') (u'polyurethane', u'NN')
+Focus :  polyurethane
+Modifier : []
+
+What is the population of vancouver?
+
+
+nsubj (u'What', u'WP') (u'population', u'NN')
+Focus :  population
+Modifier : []
+
+What was toothpaste first made of?
+
+
+nsubjpass (u'made', u'VBN') (u'toothpaste', u'NN')
+advmod (u'made', u'VBN') (u'first', u'RB')
+Focus :  toothpaste
+Modifier : []
+
+What was the date that Minnesota become a state?
+
+
+nsubj (u'What', u'WP') (u'date', u'NN')
+dep (u'What', u'WP') (u'become', u'VBP')
+nsubj (u'become', u'VBP') (u'Minnesota', u'NNP')
+Focus :  date
+Modifier : []
+
+What was frances national anthem?
+
+
+nsubj (u'What', u'WP') (u'frances', u'NNS')
+dep (u'frances', u'NNS') (u'anthem', u'NN')
+amod (u'anthem', u'NN') (u'national', u'JJ')
+Focus :  frances
+Modifier : [u'anthem']
+
+What was all the things that Robert Hooke discover?
+
+
+nsubj (u'What', u'WP') (u'things', u'NNS')
+dep (u'things', u'NNS') (u'discover', u'VBP')
+nsubj (u'discover', u'VBP') (u'Hooke', u'NNP')
+compound (u'Hooke', u'NNP') (u'Robert', u'NNP')
+Focus :  things
+Modifier : [u'discover']
+
+What was kansas's nickname?
+
+
+nsubj (u'What', u'WP') (u'nickname', u'NN')
+nmod:poss (u'nickname', u'NN') (u'kansas', u'NNS')
+Focus :  nickname
+Modifier : [u'kansas']
+
+What are five other uses which incorporate lasers?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+amod (u'uses', u'NNS') (u'other', u'JJ')
+nsubj (u'incorporate', u'VB') (u'which', u'WDT')
+Focus :  uses
+Modifier : [u'other']
+
+What are the uses of a lasers?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What are the celebrations of christians?
+
+
+nsubj (u'What', u'WP') (u'celebrations', u'NNS')
+Focus :  celebrations
+Modifier : []
+
+What are hanukkah 's symbols?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+nmod:poss (u'symbols', u'NNS') (u'hanukkah', u'NN')
+Focus :  symbols
+Modifier : [u'hanukkah']
+
+What are arguments for gun control?
+
+
+nsubj (u'What', u'WP') (u'arguments', u'NNS')
+compound (u'control', u'NN') (u'gun', u'NN')
+Focus :  arguments
+Modifier : []
+
+What are the arguments for and against gun control in america?
+
+
+nsubj (u'What', u'WP') (u'arguments', u'NNS')
+compound (u'control', u'NN') (u'gun', u'NN')
+Focus :  arguments
+Modifier : []
+
+What are the arguments for gun laws?
+
+
+nsubj (u'What', u'WP') (u'arguments', u'NNS')
+compound (u'laws', u'NNS') (u'gun', u'NN')
+Focus :  arguments
+Modifier : []
+
+What are the symbols of Hanukkah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are the uses of polyurethanes?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What are the 3 examples of use of lasers?
+
+
+nsubj (u'What', u'WP') (u'examples', u'NNS')
+Focus :  examples
+Modifier : []
+
+What are the Symbols of Hanukkah?
+
+
+nsubj (u'What', u'WP') (u'Symbols', u'NNPS')
+Focus :  Symbols
+Modifier : []
+
+What are scottish fold cats afraid of?
+
+
+nsubj (u'afraid', u'JJ') (u'scottish', u'NN')
+Focus :  afraid
+Modifier : []
+
+What are the symbols of wisdom?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are the symbols and traditions for hanukkah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are two uses of Polyurethane?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What are the symbols of hanukka?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are the Hanukkah symbols called?
+
+
+nsubjpass (u'called', u'VBN') (u'symbols', u'NNS')
+compound (u'symbols', u'NNS') (u'Hanukkah', u'NNP')
+Focus :  symbols Hanukkah
+Modifier : []
+
+What are symbols for wisdom?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are symbols for wisdom and love?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are some symbols of wisdom?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are the colors and symbols of hanukah?
+
+
+nsubj (u'What', u'WP') (u'colors', u'NNS')
+Focus :  colors
+Modifier : []
+
+What are the arguments on gun control?
+
+
+nsubj (u'What', u'WP') (u'arguments', u'NNS')
+compound (u'control', u'NN') (u'gun', u'NN')
+Focus :  arguments
+Modifier : []
+
+What are the Symbols of hanukkah?
+
+
+nsubj (u'What', u'WP') (u'Symbols', u'NNPS')
+Focus :  Symbols
+Modifier : []
+
+What are the advantages of using polyurethane?
+
+
+nsubj (u'What', u'WP') (u'advantages', u'NNS')
+Focus :  advantages
+Modifier : []
+
+What are hanukkah's symbols?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+nmod:poss (u'symbols', u'NNS') (u'hanukkah', u'NN')
+Focus :  symbols
+Modifier : [u'hanukkah']
+
+What are all the uses polyurethane can be used for?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+nsubjpass (u'used', u'VBN') (u'polyurethane', u'NN')
+Focus :  uses
+Modifier : []
+
+What are some of christians celebrations?
+
+
+nsubj (u'What', u'WP') (u'some', u'DT')
+amod (u'celebrations', u'NNS') (u'christians', u'JJ')
+Focus :  some
+Modifier : []
+
+What are centrioles found in?
+
+
+nsubjpass (u'found', u'VBN') (u'centrioles', u'NNS')
+Focus :  centrioles
+Modifier : []
+
+What are some symbols of Hanukah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are 3 uses of lasers?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What are the uses for ruthenium?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What are the five uses of a laser?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What are some ruthenium uses?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+compound (u'uses', u'NNS') (u'ruthenium', u'NN')
+Focus :  uses ruthenium
+Modifier : []
+
+What are the symbols of hanukkah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are the celebrations that Christians celebrate?
+
+
+nsubj (u'What', u'WP') (u'celebrations', u'NNS')
+dep (u'What', u'WP') (u'celebrate', u'VBP')
+nsubj (u'celebrate', u'VBP') (u'Christians', u'NNS')
+Focus :  celebrations
+Modifier : []
+
+What are the cause of tuberculosis?
+
+
+nsubj (u'What', u'WP') (u'cause', u'NN')
+Focus :  cause
+Modifier : []
+
+What are the rules of catching fish?
+
+
+nsubj (u'What', u'WP') (u'rules', u'NNS')
+Focus :  rules
+Modifier : []
+
+What are the other languages spoken in hong kong?
+
+
+nsubjpass (u'spoken', u'VBN') (u'languages', u'NNS')
+amod (u'languages', u'NNS') (u'other', u'JJ')
+Focus :  languages
+Modifier : [u'other']
+
+What are the Symbols for wisdom?
+
+
+nsubj (u'What', u'WP') (u'Symbols', u'NNPS')
+dep (u'What', u'WP') (u'wisdom', u'NN')
+Focus :  Symbols
+Modifier : []
+
+What are important uses for ruthenium?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+amod (u'uses', u'NNS') (u'important', u'JJ')
+Focus :  uses
+Modifier : [u'important']
+
+What are some uses of ruthenium?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What are most toothpaste made of?
+
+
+nsubjpass (u'made', u'VBN') (u'toothpaste', u'NNS')
+amod (u'toothpaste', u'NNS') (u'most', u'JJS')
+Focus :  toothpaste
+Modifier : [u'most']
+
+What are the symbols of hanukah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are the religious celebrations of christians?
+
+
+nsubj (u'What', u'WP') (u'celebrations', u'NNS')
+amod (u'celebrations', u'NNS') (u'religious', u'JJ')
+Focus :  celebrations
+Modifier : [u'religious']
+
+What are cause of tuberculosis?
+
+
+nsubj (u'What', u'WP') (u'cause', u'NN')
+Focus :  cause
+Modifier : []
+
+What are two uses for polyurethane foam?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+compound (u'foam', u'NN') (u'polyurethane', u'NN')
+Focus :  uses
+Modifier : []
+
+What are animal centrioles found within?
+
+
+nsubjpass (u'found', u'VBN') (u'centrioles', u'NNS')
+compound (u'centrioles', u'NNS') (u'animal', u'NN')
+Focus :  centrioles animal
+Modifier : []
+
+What are the arguements for gun control?
+
+
+nsubj (u'What', u'WP') (u'arguements', u'NNS')
+compound (u'control', u'NN') (u'gun', u'NN')
+Focus :  arguements
+Modifier : []
+
+What are symbols to represent Hanukkah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are some arguments that support gun control?
+
+
+nsubj (u'What', u'WP') (u'arguments', u'NNS')
+nsubj (u'support', u'VBP') (u'that', u'WDT')
+compound (u'control', u'NN') (u'gun', u'NN')
+Focus :  arguments
+Modifier : []
+
+What are the pros for gun control?
+
+
+nsubj (u'What', u'WP') (u'pros', u'NNS')
+compound (u'control', u'NN') (u'gun', u'NN')
+Focus :  pros
+Modifier : []
+
+What are some symbols Jews use for Hanukkah?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+compound (u'use', u'NN') (u'symbols', u'NNP')
+compound (u'use', u'NN') (u'Jews', u'NNPS')
+dep (u'What', u'WP') (u'Hanukkah', u'NNP')
+Focus :  use symbols Jews
+Modifier : []
+
+What are the symbols for Hanukkah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are ten uses for lasers?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What are common uses of lasers?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+amod (u'uses', u'NNS') (u'common', u'JJ')
+Focus :  uses
+Modifier : [u'common']
+
+What are uses of Polyurethane?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What are some celebrations of the christians?
+
+
+nsubj (u'What', u'WP') (u'celebrations', u'NNS')
+Focus :  celebrations
+Modifier : []
+
+What are uses for spray polyurethane?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+compound (u'polyurethane', u'NN') (u'spray', u'NN')
+Focus :  uses
+Modifier : []
+
+What are toothpaste made out of?
+
+
+nsubjpass (u'made', u'VBN') (u'toothpaste', u'NN')
+Focus :  toothpaste
+Modifier : []
+
+What are the languages spoken in Hong Kong?
+
+
+nsubjpass (u'spoken', u'VBN') (u'languages', u'NNS')
+compound (u'Kong', u'NNP') (u'Hong', u'NNP')
+Focus :  languages
+Modifier : []
+
+What are some christian symbols for wisdom?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+compound (u'symbols', u'NNS') (u'christian', u'NN')
+Focus :  symbols christian
+Modifier : []
+
+What are some celebrations for Christians?
+
+
+nsubj (u'What', u'WP') (u'celebrations', u'NNS')
+Focus :  celebrations
+Modifier : []
+
+What are some arguments for gun control?
+
+
+nsubj (u'What', u'WP') (u'arguments', u'NNS')
+compound (u'control', u'NN') (u'gun', u'NN')
+Focus :  arguments
+Modifier : []
+
+What are cats afraid of?
+
+
+nsubj (u'afraid', u'JJ') (u'cats', u'NNS')
+Focus :  afraid
+Modifier : []
+
+What are lasers use for?
+
+
+nsubj (u'What', u'WP') (u'use', u'NN')
+compound (u'use', u'NN') (u'lasers', u'NNS')
+dep (u'What', u'WP') (u'for', u'IN')
+Focus :  use lasers
+Modifier : []
+
+What are some possible causes of tuberculosis?
+
+
+nsubj (u'What', u'WP') (u'causes', u'NNS')
+amod (u'causes', u'NNS') (u'possible', u'JJ')
+Focus :  causes
+Modifier : [u'possible']
+
+What are the arguments for gun control?
+
+
+nsubj (u'What', u'WP') (u'arguments', u'NNS')
+compound (u'control', u'NN') (u'gun', u'NN')
+Focus :  arguments
+Modifier : []
+
+What are female octopus called?
+
+
+nsubjpass (u'called', u'VBN') (u'octopus', u'NNS')
+amod (u'octopus', u'NNS') (u'female', u'JJ')
+Focus :  octopus
+Modifier : [u'female']
+
+What are the symbols of Hanukkah and why?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are the symbols for hanukah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are Kansas's 5 nicknames?
+
+
+nsubj (u'What', u'WP') (u'nicknames', u'NNS')
+nmod:poss (u'nicknames', u'NNS') (u'Kansas', u'NNP')
+Focus :  nicknames
+Modifier : [u'Kansas']
+
+What are the cause of having tuberculosis?
+
+
+nsubj (u'What', u'WP') (u'cause', u'NN')
+Focus :  cause
+Modifier : []
+
+What are Reasons for gun control?
+
+
+nsubj (u'What', u'WP') (u'Reasons', u'NNS')
+compound (u'control', u'NN') (u'gun', u'NN')
+Focus :  Reasons
+Modifier : []
+
+What are all of the languages that are spoken in HOn Kong?
+
+
+nsubj (u'What', u'WP') (u'all', u'DT')
+nsubjpass (u'spoken', u'VBN') (u'that', u'WDT')
+compound (u'Kong', u'NNP') (u'HOn', u'NNP')
+Focus :  all
+Modifier : []
+
+What are the symbols for Hannukah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What are uses of laser?
+
+
+nsubj (u'What', u'WP') (u'uses', u'NNS')
+Focus :  uses
+Modifier : []
+
+What are some symbols of Hanukkah?
+
+
+nsubj (u'What', u'WP') (u'symbols', u'NNS')
+Focus :  symbols
+Modifier : []
+
+What were the main causes of tuberculosis?
+
+
+nsubj (u'What', u'WP') (u'causes', u'NNS')
+amod (u'causes', u'NNS') (u'main', u'JJ')
+Focus :  causes
+Modifier : [u'main']
+

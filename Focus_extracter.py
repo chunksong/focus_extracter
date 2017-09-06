@@ -12,9 +12,10 @@ os.environ['STANFORD_MODELS'] = '/Users/songchangheon/stanford_NLP/stanford-pars
 parser = stanford.StanfordParser(model_path="/Users/songchangheon/stanford_NLP/stanford-parser-full-2017-06-09/stanford-parser-3.8.0-models/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
 dependency_parser = stanford.StanfordDependencyParser(os.environ['STANFORD_PARSER'],os.environ['STANFORD_MODELS'],)
 
-select_list = ['nsubj','nsubjpass','dep','advmod','amod','npadvmod','num','vmod','compound','nmod:for','nmod:poss','nmod:of','nmod:in','nmod:to','nmod:on','nmod:from','nmod:with','nmod:at','nmod:next','nmod:under']
+select_list = ['nsubj','nsubjpass','dep','advmod','amod','acl:relcl','npadvmod','num','vmod','compound','nmod:for','nmod:poss','nmod:of','nmod:in','nmod:to','nmod:on','nmod:from','nmod:with','nmod:at','nmod:next','nmod:under']
 
-file_name = open("/Users/songchangheon/PARALEX/web_crawl/question.txt")
+file_name = open("/Users/songchangheon/Desktop/what_be_nlq.txt")
+output_file = open("/Users/songchangheon/Desktop/extract.txt","w")
 
 lines = file_name.readlines()
 tuple_lines = tuple(lines)
@@ -29,39 +30,62 @@ for line in sentences:
     print ""
 
     Focus = ""
+    answer = ""
     Modifier = []
     flag = False
 
     for element in list(line.next().triples()):
-        if element[1] in select_list:
-            print element[1],element[0],element[2]
-            if flag == False and (element[1] == 'nsubj' or element[1] == 'nsubjpass'):
-                if (element[0][1] != u'WP' and element[0][1] != u'VBN'):
-                    Focus = element[0][0]
-                elif (element[2][1] != u'WP' and element[2][1] != u'VBN'):
-                    Focus = element[2][0]
-                else:
-                    Focus = element[0][0] if element[0][1] ==  u'VBN' else element[2][0]
-                flag = True
-            elif element[1] == 'compound' and (element[0][0] in Focus or element[2][0] in Focus):
-                Focus = Focus + " " +element[0][0] if element[0][0] not in Focus else Focus + " " + element[2][0]
-            else:           ## need to get modifier method
-                if element[0][0] == Focus:
-                    mod = element[2][0]
-                elif element[2][0] == Focus:
-                    mod = element[0][0]
-                else:
-                    mod = ""
-                if mod is not "":
-                    Modifier.append(mod)
 
+        print element[1],element[0],element[2]
+        # process 'dobj' to pick focus
+        if flag == False and (element[1] == 'dobj'):
+            if u'NN' in element[0][1] :
+                Focus += element[0][0]
+            elif u'NN' in element[2][1]:
+                Focus += element[2][0]
+
+        # process 'nsubj' and 'nsubjpass' to pick focus
+        if flag == False and (element[1] == 'nsubj' or element[1] == 'nsubjpass'):
+            if u'NN' in element[0][1]:
+                Focus += element[0][0]
+                if element[2][1] != u'WP' and u'VBP' not in element[2][1]:
+                    Modifier.append(element[2][0])
+            elif u'NN' in element[2][1]:
+                Focus += element[2][0]
+                if element[0][1] != u'WP' and u'VBP' not in element[0][1]:
+                    Modifier.append(element[0][0])
+            else:
+                Focus += element[0][0] if element[0][1] != u'WP' else element[2][0]
+            flag = True
+        # processing Focus compound
+        if element[1] == 'compound':
+            if element[0][0] in Focus or element[2][0] in Focus:
+                Focus = Focus + " " +element[0][0] if element[0][0] not in Focus else Focus + " " + element[2][0]
+            if element[0][0] in Modifier or element[2][0] in Modifier:
+                Modifier.append(element[0][0] if element[0][0] not in Modifier else element[2][0])
+
+        if u'mod' in element[1] or u'acl' in element[1] or u'obj' in element[1] or u'advcl' in element[1]:           ## need to get modifier method
+            if (element[0][0] in Focus or element[0][0] in Modifier) and element[2][1] != u'DT':
+                mod = element[2][0]
+            elif (element[2][0] in Focus or element[0][0] in Modifier) and element[2][1] != u'DT':
+                mod = element[0][0]
+            else:
+                mod = ""
+            if mod is not "":
+                Modifier.append(mod)
+        answer = Focus
 
     print "Focus : ",Focus
+    for mod in Modifier:
+        answer += (" " + mod)
+    answer += "\n"
+    output_file.write(answer)
     print "Modifier :", Modifier
     print ""
     i += 1
 
-
+file_name.close()
+output_file.close()
 '''
 What is required to open an account with Chevy Chase Bank Online?
 
